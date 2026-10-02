@@ -3,6 +3,9 @@ public class Operators {
         int a = 13;
         int b = 3;
         int c = 6;
+        int d = 15;
+
+       
         
         //Arithmetic Operators(+, -, *, /, %)
         System.out.println("Arithmetic Operators:");
@@ -26,6 +29,21 @@ public class Operators {
         System.out.println("Logical AND: " + ((a > b) && (b < c)));
         System.out.println("Logical OR: " + ((a > b) || (b < c)));
         System.out.println("Logical NOT: " + (!(a > b)));
+
+        //Assignment Operators(=, +=, -=, *=, /=, %=)
+        System.out.println("\nAssignment Operators:");
+        System.out.println("Assignment: " + (a = d));
+        System.out.println("Addition Assignment: " + (a += b));
+        System.out.println("Subtraction Assignment: " + (a -= b));
+        System.out.println("Multiplication Assignment: " + (a *= b));
+        System.out.println("Division Assignment: " + (a /= b));
+        System.out.println("Modulus Assignment: " + (a %= b));  
+        
+
+    //Increment and Decrement Operators(++, --)
+        System.out.println("\nIncrement and Decrement Operators:");
+        System.out.println("Increment: " + (a++));
+        System.out.println("Decrement: " + (a--));  
 
     }
 }
